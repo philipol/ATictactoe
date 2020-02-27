@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" >
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    </head>
+    <body>
+        <div id="content">
+            <div id="spelplan">
+                <h1>Tic Tac Toe</h1>
+                <h2 id="antDrag">Inga drag gjorda ännu</h2>
+                <h2 id="player">Spelare O börjar</h2>
+                <button id="start" onclick="startGame()">Starta spelet</button>
+                <p id="text"></p>
+                <div id="divPlayagain">
+                    <h2 id="winner" ></h2>
+                    <button id="quit" onclick="quit()">Bort med skiten!</button>
+                    <button id="playAgain" onclick="playAgain()">Spela igen</button>
+                </div>
+                <img src="gameOver.png" id="quited">
+            </div>
+        </div>
+        <script type="application/javascript" src="java.js"></script>
+    </body>
+</html>

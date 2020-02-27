@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, red , blue);
+}
+#start{
+    width: 300px;
+    height: 90px;
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 0,5;
+    top: 400px;
+}
+#content{
+    position: static;
+    padding: 20px;
+    background-color: black;
+    margin: 5%;
+    min-height: 550px;
+    text-align: center;
+}
+h1, h2{
+    color: aqua;
+    text-align: center;
+    margin: 20px;
+}
+.myButton{
+    display: inline;
+    position: static;
+    background-color: black;
+    color: black;
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    left: 30%;
+    padding:0;
+    text-decoration: none;
+}
+img{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+#divPlayagain{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    background-color: aqua;
+    width: 100%;
+    min-height: 150px;
+}
+#divPlayagain h2{
+    color: black;
+}
+#divPlayagain button{
+    position: static;
+    top: 30%;
+    margin: 50px;
+    margin-top: 50px;
+    height: 100px;
+    width: 250px;
+    font-size: 30px;
+    color: aqua;
+    background-color: black;
+}
+#quited{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
